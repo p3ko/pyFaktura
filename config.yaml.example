@@ -1,0 +1,28 @@
+time_to_pay_in_days: 15
+invoice_creation_date: "2022-11-05"
+services_delivery_date: "2022-10-31"
+regular_font_file: "OpenSans-Regular.ttf"
+bold_font_file: "OpenSans-Bold.ttf"
+items:
+  - item_name: "Usługi zgodnie z umową z dn. 01.10.2020 r."
+    item_netto_cost: 1000.00
+    item_quantity: 1.00
+    vat_rate: 23
+# Uncomment if want add more item/services to your invoice
+#   - item_name: "Usługi dodatkowe zgodnie z umową z dn. 01.10.2020 r."
+#    item_netto_cost: 1000.00
+#    item_quantity: 1.00
+#    vat_rate: 23
+seller:
+  name: "Nazwa firmy świadczącej usługi"
+  address: "Ul. Kwiatowa 1/2"
+  zipcode: "83-010"
+  city: "Straszyn"
+  nip: "1112223344"
+  bank_account_number: "11 2222 3333 4444 5555 6666 7777"
+buyer:
+  name: "Nazwa firmy dla której świadczone są usługi"
+  address: "Ul. Warzywna 1"
+  zipcode: "84-230"
+  city: "Rumia"
+  nip: "1112223344"
